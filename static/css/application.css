@@ -1,0 +1,57 @@
+html{
+    margin: 0;
+}
+h1 {
+    color: red;
+}
+#smallpostcontainer{
+    background-color: rgb(14, 125, 168);
+    border: black 4px solid;
+    border-radius: 3px;
+    height: auto;
+    width: 200px;
+    margin: 10px 10px 10px 10px;
+}
+#bigpostcontainer{
+    background-color: rgb(14, 125, 168);
+    border: black 4px solid;
+    border-radius: 3px;
+    height: auto;
+    width: 400px;
+    margin: 10px 10px 20px 10px;
+}
+.button{
+    padding: 6px;
+    height: auto;
+    background-color: rgb(228, 180, 50);
+    border: solid 2px black;
+    border-radius: 17px;
+    padding: 2px;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+a{
+    text-decoration: none;
+}
+
+#author{
+    color: sandybrown;
+    margin-left: 4px;
+}
+#content{
+    color: gold;
+    margin-left: 4px;
+}
+body{
+    background-color: gray;
+    margin: 0;
+}
+#postmenucontainer{
+    background-color: chocolate;
+    border-bottom: black 3px solid;
+    display: flex;
+    justify-content: space-evenly;
+    position: sticky;
+}
